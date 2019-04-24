@@ -63,6 +63,12 @@ footer {
 	min-height: 100vh;
     min-width: 0;
 }
+.catalog__search {
+	width: 100% !important;
+}
+.catalog__inline-form {
+	margin-bottom: 20px;
+}
 .item {
 	display: flex;
     align-items: center;
