@@ -90,3 +90,36 @@ footer {
 .item__text {
 	padding-right: 15px;
 }
+
+/*details*/
+
+.details {
+ display: flex;
+ width: 100%;
+}
+.details__phone {
+	border-radius: 20px;
+}
+.details__promo-img {
+	padding: 20px;
+}
+.details__desc {
+	padding: 20px;
+}
+.details__desc p, h1 {
+	color: #fff;
+}
+.details__list-photo {
+	padding: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.details__list-photo li {
+	margin-bottom: 20px;
+}
+.details__list-photo img {
+	border-radius: 20px;
+}
